@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ussd</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row1">
+            <h1>Welcome to *894# banking<br> 1>Quick Banking<br> 2>Open an account<br> 3>Loans<br> 4>FirstMpnie<br>
+                5>Payattitude</h1>
+            <form action=""><br>
+                <label id="bank">Quick Banking</label><br>
+                <select name="viewport" id="qBank">
+                    <option value="">Select option</option>
+                    <option value="transfer">Transfer</option>
+                    <option value="airtimeS">Airtime (self)</option>
+                    <option value="airtimeO">Airtime (others)</option>
+                    <option value="enquiry">Enquiry services</option>
+                    <option value="data">Data</option>
+                    <option value="pBills">Pay bills</option>
+                    <option value="nPage">Next page</option>
+                </select><br>
+                <label id="qbankError"></label><br><br><br>
+                
+                <input type="number" id="amt" placeholder="Enter Amount" value=""><br>
+                <label id="amtError"></label><br><br><br>
+                <input type="number" id="pNum" placeholder="Enter phone number" value=""><br>
+                <label id="pnumError"></label><br><br><br>
+                <button type="button" id="btnCan">Cancel</button>
+                <button type="button" id="btnSd">Send</button><br><br>
+                <!-- <label id="loan">Loans</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="firstM">Firstmonie</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="payatt">Payattitude</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"> --> -->
+
+            </form>
+        </div>
+        <!-- <div class="row2">
+            <h1>Welcome to *894# banking<br> 1> Transfer money<br> 2> Airtime (self)<br> 3> Airtime (others)<br> 4> Enquiry services<br> 5> Data<br> 6> Pay bills<br> 7> Next page</h1>
+            <form action="">
+                <label id="tMoney">Transfer Money</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="airTime">Airtime (self)</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="airtimeO">Airtime (others)</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="enquiry">Enquiry services</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="data">Data</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="fnumError"></label><br>
+                <label id="pBills">Pay bills</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="fnumError"></label><br>
+                <label id="nPage">Next page</label><br>
+                <input type="number" id="fNum" placeholder="Enter number"><br><br><br>
+                <label id="fnumError"></label><br>
+                <button type="button" id="btnCan">Cancel</button>
+                <button type="button" id="btnSd">Send</button><br><br>
+            </form>
+        </div> -->
+    </div>
+    <script src="ussd.js"></script>
+</body>
+
+</html>

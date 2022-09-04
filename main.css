@@ -1,0 +1,41 @@
+*{padding: 0; margin: 0;}
+
+body{background-color: rgb(13, 13, 13); align-items: center; justify-content: center; display: flex; font-family: sans-serif;}
+.container{ width: 50%; height: 900px; background: #dedede; padding: 50px;}
+.container .row1{width: 90%;  margin: 50px; }
+select{width: 80%; height: 30px; box-shadow: 0 5px 15px blueviolet; font-size: 18px;}
+
+.container .row1 label{ font-size: 20px; font-weight: bold; color: #130f40; }
+
+.container .row1 input{width: 80%; height: 30px;  box-shadow: 0 5px 15px blueviolet; font-size: 18px; }
+
+.container .row1 button{margin: 20px; width: 20%; height: 40px; box-shadow: 0 5px 15px blueviolet; font-size: 18px;}
+
+#pnumError, #amtError, #qbankError{ color: rgb(235, 82, 82);}
+/* row2 starts */
+/* .container .row2{width: 90%; margin-left: 50px; }
+
+.container .row2 h1{ font-size: 20px; font-weight: bold; color: #130f40; }
+
+.container .row2 input{width: 80%; height: 30px;  box-shadow: 0 5px 15px blueviolet; font-size: 18px;} */
+
+/* .container h1{padding: 130px; font-size: 15px; font-weight: bold; color: #130f40; position: relative;}
+.login_form{padding: 20px 40px; text-align: center;}
+.login_form .font{font-size: 18px; color: #130f40; margin: 5px 0;}
+.login_form input{height: 40px; width: 350px; padding: 0 5px; font-size: 18px; outline: none; border: 1px solid silver; }
+.login_form .font2{margin-top: 30px;}
+.login_form button{margin: 45px 0 30px 0; height: 45px; width: 365px; font-size: 20px; color: white; outline: none; cursor: pointer; font-weight: bold; background: #1A237E; border-radius: 3px; border: 1px solid #3949AB; transition: 5s; justify-content: center;}
+.login_form button:hover{background: #575a7a;}
+#fnumError{margin-top: 5px; width: 345; font-size: 18px; color: #C62828; background: rgba(255,0,0,0,1); text-align: center; padding: 5px 8px; border-radius: 3px; border: 1px solid #EF9A9A; display: none;}
+
+
+.qickbanking body{background-color: black; align-items: center; justify-content: center; display: flex; font-family: sans-serif;}
+.qickbanking .container{position: relative; margin-top: 100px; width: 450px; height: auto; background: #dedede; border-radius: 5px;}
+.qickbanking .container h1{padding: 20px 130px; font-size: 15px; font-weight: bold; color: #130f40;}
+.qickbanking .login_form{padding: 20px 40px; text-align: center;}
+.qickbanking .login_form .font{font-size: 18px; color: #130f40; margin: 5px 0;}
+.qickbanking .login_form input{height: 40px; width: 350px; padding: 0 5px; font-size: 18px; outline: none; border: 1px solid silver; }
+.qickbanking .login_form .font2{margin-top: 30px;}
+.qickbanking .login_form button{margin: 45px 0 30px 0; height: 45px; width: 365px; font-size: 20px; color: white; outline: none; cursor: pointer; font-weight: bold; background: #1A237E; border-radius: 3px; border: 1px solid #3949AB; transition: 5s; justify-content: center;}
+.qickbanking .login_form button:hover{background: #575a7a;}
+.qickbanking #fnumError{margin-top: 5px; width: 345; font-size: 18px; color: #C62828; background: rgba(255,0,0,0,1); text-align: center; padding: 5px 8px; border-radius: 3px; border: 1px solid #EF9A9A; display: none;} */
