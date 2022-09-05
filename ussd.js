@@ -54,18 +54,11 @@ function acceptValues(){
     process()
 }
 function process(){
-    let and, message
+    let and, message, messageT
     if(qBank ==="airtimeS"){
-  
+        airtimeS = amt
     message = "Recharge of" +amt + "Successful"
     messageT.innerHTML = message 
-    
     }
 }
 
-    // console.log(num1);
-    // console.log(num2);
-    // console.log(opr);
-
-    //  calculate()
-    // }
